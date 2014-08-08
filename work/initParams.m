@@ -6,9 +6,9 @@
 % Model growth dynamics: Engasser et al. (1981), "Kinetic modeling of beer 
 % fermentation", Proceedings of the European Brewing Convention Congress
 
-G0 = 1;
-M0 = 1;
-N0 = 1;
+G0 = 75;
+M0 = 225;
+N0 = 40;
 X0 = 1;
 
 % Baseline Growth rates 
