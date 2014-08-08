@@ -9,6 +9,7 @@
 G0 = 1;
 M0 = 1;
 N0 = 1;
+X0 = 1;
 
 % Baseline Growth rates 
 mu_G0 = exp(35.77);  % Glucose base rate [1/h]
