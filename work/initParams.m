@@ -12,9 +12,9 @@ N0 = 40;
 X0 = 1;
 
 % Baseline Growth rates 
-mu_G0 = exp(35.77);  % Glucose base rate [1/h]
-mu_M0 = exp(16.4);   % Maltose base rate [1/h]
-mu_N0 = exp(10.59);  % Maltoriose base rate [1/h]
+mu_G0 = exp(35.77)/3600;  % Glucose base rate [1/h]
+mu_M0 = exp(16.4)/3600;   % Maltose base rate [1/h]
+mu_N0 = exp(10.59)/3600;  % Maltoriose base rate [1/h]
 
 % Baseline Energy per Molecule
 E_G0 = 22.6;         % Glucose [kcal/gmole]
@@ -38,7 +38,8 @@ Ed_KM = 26.3;
 Y_XG = 0.134;
 Y_XM = -0.268;
 Y_XN = 0.402;
-Kx = 365000;
+% Kx = 365000;
+Kx = 3650;
 
 dH_FG = -91.2;
 dH_FM = -226.3;
@@ -72,6 +73,12 @@ k0_AAL = exp(10.4);
 
 E_VDK = 54.3;
 E_AAL = 11.1;
+
+% Ethanol Variables
+E0 = 0;     % Initial ethanol (g mole/ cu m)
+Y_EG = 0.1;
+Y_EM = 0.1;
+Y_EN = 0.1;
 
 % Gas constant
 R = 1.9872041e-3;
