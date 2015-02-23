@@ -11,6 +11,10 @@ M0 = 225;
 N0 = 40;
 X0 = 1;
 
+L0 = 1.2;
+I0 = 0.6;
+V0 = 1;
+
 % Baseline Growth rates 
 mu_G0 = exp(35.77)/3600;  % Glucose base rate [1/h]
 mu_M0 = exp(16.4)/3600;   % Maltose base rate [1/h]
